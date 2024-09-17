@@ -1,0 +1,76 @@
+body{
+  background-color: beige;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create_form input{
+  width: 500px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+
+.create_form button {
+  padding: 14px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  background-color:#0a0a23;
+  color: #fff;
+  border:none; 
+
+}
+
+h2{
+  margin-left: 42%;;
+  color:rgb(96, 5, 5);
+}
+
+h1{
+  margin-left: 38%;
+}
+
+.task{
+  display:flex;
+  align-items: center;
+  width: 560px;
+  font-size: 21px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 8px ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon{
+  margin-right: 6px;
+  font-size: 21px;
+}
+
+.task div span {
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon {
+  cursor: pointer;
+}
+
+.line_through{
+  text-decoration: line-through;
+}
